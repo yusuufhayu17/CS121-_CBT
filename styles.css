@@ -1,4 +1,4 @@
-
+/* Basic reset */
 * {
     margin: 0;
     padding: 0;
@@ -28,21 +28,21 @@ body {
     width: 100%;
     overflow-y: auto;
     max-height: 90vh;
-    padding-bottom: 80px; 
+    padding-bottom: 80px; /* Adds space for the footer */
 }
 
 h1 {
     text-align: center;
     color: #90caf9;
-    position: fixed; /
+    position: fixed; /* Fixes the title bar */
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(33, 33, 33, 0.9); 
+    background-color: rgba(33, 33, 33, 0.9); /* Matches the container background */
     padding: 10px 0;
-    z-index: 1000; 
+    z-index: 1000; /* Ensures it stays on top of other content */
     margin: 0;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow to the bar */
 }
 
 #questionsContainer {
@@ -93,15 +93,16 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(33, 33, 33, 0.9); /
+    background-color: rgba(33, 33, 33, 0.9); /* Dark background for the footer */
     color: #e0e0e0; /* Light text color */
     text-align: center;
     padding: 10px 0;
-    z-index: 1000; 
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5); 
+    z-index: 1000; /* Ensures the footer stays on top */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow to the footer */
+}
 
 footer a {
-    color: #90caf9; 
+    color: #90caf9; /* Link color */
     text-decoration: none;
     margin: 0 10px;
 }
